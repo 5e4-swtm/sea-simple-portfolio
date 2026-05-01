@@ -1,0 +1,58 @@
+:root {
+    --bg-color: #0f172a;
+    --text-color: #e2e8f0;
+    --accent-color: #38bdf8;
+    --font-main: 'JetBrains Mono', monospace;
+}
+
+[data-theme='light'] {
+    --bg-color: #f8fafc;
+    --text-color: #1e293b;
+    --accent-color: #0284c7;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: none;
+    color: var(--text-color);
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theme-toggle:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-card {
+    border: 1px solid var(--accent-color);
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1;
+}
