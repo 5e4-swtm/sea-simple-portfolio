@@ -9,4 +9,4 @@ A simple, responsive personal portfolio website.
 
 ## Setup
 1. Clone this repository.
-2. Open `index.html` in your web browser.
+2. Open `docs/index.html` in your web browser.
