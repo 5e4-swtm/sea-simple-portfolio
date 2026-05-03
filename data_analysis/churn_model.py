@@ -1,0 +1,5 @@
+print("--- Churn Modeling Demo ---")
+print("Loading customer data...")
+print("Analyzing features: tenure, monthly charges, contract type...")
+print("Model accuracy: 85%")
+print("Prediction: Customer A likely to churn.")

@@ -1,0 +1,5 @@
+print("--- Customer Segmentation Demo ---")
+print("Loading purchase history...")
+print("Applying K-means clustering (k=3)...")
+print("Segments identified: 'High Value', 'Occasional', 'New Customers'")
+print("Result: 45% of users categorized as 'Occasional'.")
